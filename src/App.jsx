@@ -9,14 +9,13 @@ function App() {
   return (
     <div className="app-container">
       {!showProductList ? (
-        <div className="landing-page">
+        <div className="background-image landing-page">
           <div className="content">
-            <h1>Paradise Nursery</h1>
-            <div className="divider"></div>
-            <p>Where Greenery Meets Serenity</p>
+            <h1>paradise nursery</h1>
+            <p>where greenery meets serenity</p>
             <AboutUs />
             <button className="get-started-btn" onClick={() => setShowProductList(true)}>
-              Get Started
+              get started
             </button>
           </div>
         </div>
